@@ -68,12 +68,12 @@ class _HomeScreenState extends State<HomeScreen> {
                       children: [
                         Padding(
                           padding: const EdgeInsets.all(20.0),
-                          child: Text(quotesList[index1][kQuote], style: kQuoteTextStyle,
+                          child: Text(quotesList[index1][quote_text], style: kQuoteTextStyle,
                             textAlign: TextAlign.center,
                           ),
                         ),
                         SizedBox(height: 20,),
-                        Text('- ${quotesList[index1][kAuthor]} -', style: kAuthorTextStyle,
+                        Text('- ${quotesList[index1][author]} -', style: kAuthorTextStyle,
                           textAlign: TextAlign.center,
                         ),
                       ],
